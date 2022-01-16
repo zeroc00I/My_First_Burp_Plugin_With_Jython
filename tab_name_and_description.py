@@ -5,8 +5,7 @@
 # by @zeroc00I
 ##
 
-from burp import IBurpExtender
-from burp import ITab
+from burp import IBurpExtender,ITab
 from javax.swing import JScrollPane;
 
 class BurpExtender(IBurpExtender, ITab):
